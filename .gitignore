@@ -1,0 +1,15 @@
+# Local environment overrides (do not commit credentials).
+.env
+.env.*
+!.env.example
+config/database.local.php
+
+# Local/editor and operating-system files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime and temporary files.
+*.log
+*.tmp
